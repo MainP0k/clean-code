@@ -1,12 +1,28 @@
 package ex1;
 
-public class calcul {
+/**
+ * Classe Calculatrice pour effectuer des opérations de base.
+ */
 
-    public int get1(int a, int b) {
+public class Calcul {
+
+    /**
+     * Addition.
+     * @param a
+     * @param b
+     * @return la somme de a et b
+     */
+    public int additionner(int a, int b) {
         return a + b;
     }
 
-    public int get2(int a, int b) {
+    /**
+     * Soustraction.
+     * @param a
+     * @param b
+     * @return la somme de a et b
+     */
+    public int sub(int a, int b) {
         return a - b;
     }
 }
