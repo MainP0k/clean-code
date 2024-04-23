@@ -12,7 +12,7 @@ public class Calcul {
      * @param b
      * @return la somme de a et b
      */
-    public int additionner(int a, int b) {
+    public int add(int a, int b) {
         return a + b;
     }
 
